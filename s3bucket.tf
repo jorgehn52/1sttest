@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "spintf"
-    key = ""
+    key = "psdev.tfstate"
     region = "us-east-2"
     encrypt = false
     profile = "psdev"
