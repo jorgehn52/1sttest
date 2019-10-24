@@ -4,11 +4,11 @@ terraform {
     key = "psdev.tfstate"
     region = "us-east-2"
     encrypt = false
-    profile = "psdev"
+    profile = "kubernetes"
   }
   
 provider "aws" {
-  profile = "psdev"
+  profile = "kubernetes"
   region = "us-east-2"
 }
 
